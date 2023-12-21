@@ -39,7 +39,7 @@ public class GridBoardRenderer extends JPanel {
     public void clearData() {
         for (int i = 0; i < data.size(); ++i) {
             for (int j = 0; j < data.get(i).size(); ++j) {
-                data.get(i).set(j, -1);
+                data.get(i).set(j, 0);
             }
         }
     }
