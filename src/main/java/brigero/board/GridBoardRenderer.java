@@ -70,7 +70,7 @@ public class GridBoardRenderer extends JPanel {
             List<Integer> tmp = new ArrayList<>();
 
             for (int x = 0; x < pixWidth; x++) {
-                tmp.add(-1);
+                tmp.add(0);
             }
 
             data.add(tmp);
